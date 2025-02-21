@@ -18,14 +18,14 @@ fi
 
 # Example for groups import
 echo "STARTED... importing AWSDevOps"
-abform --environment production --region eu-west-1 import 'module.sso.aws_identitystore_group.aws_group["AWSDevOps"]' d-12345fai6g/$group_id
+terraform --environment production --region eu-west-1 import 'module.sso.aws_identitystore_group.aws_group["AWSDevOps"]' d-12345fai6g/$group_id
 echo "FINISHED! imported AWSDevOps"
 echo "STARTED... importing AWSBillingViewers"
-abform --environment production --region eu-west-1 import 'module.sso.aws_identitystore_group.aws_group["AWSBillingViewers"]' d-12345fai6g/$group_id
+terraform --environment production --region eu-west-1 import 'module.sso.aws_identitystore_group.aws_group["AWSBillingViewers"]' d-12345fai6g/$group_id
 echo "FINISHED! imported AWSBillingViewers"
 echo "STARTED... importing AWSLegacyViewers"
-abform --environment production --region eu-west-1 import 'module.sso.aws_identitystore_group.aws_group["AWSLegacyViewers"]' d-12345fai6g/$group_id
+terraform --environment production --region eu-west-1 import 'module.sso.aws_identitystore_group.aws_group["AWSLegacyViewers"]' d-12345fai6g/$group_id
 echo "FINISHED! imported AWSLegacyViewers"
 echo "STARTED... importing AWSLegacyAdmins"
-abform --environment production --region eu-west-1 import 'module.sso.aws_identitystore_group.aws_group["AWSLegacyAdmins"]' d-12345fai6g/$group_id
+terraform --environment production --region eu-west-1 import 'module.sso.aws_identitystore_group.aws_group["AWSLegacyAdmins"]' d-12345fai6g/$group_id
 echo "FINISHED! imported AWSLegacyAdmins"
