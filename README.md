@@ -55,7 +55,7 @@ For importing existing resources into the module.
 
 To onboard legacy users, groups, and configurations into the module, this project includes custom **import scripts**.
 
-### 📜 **[Imports Documentation](./import_scripts/docs/imports.md)**  
+📜 **[Imports Documentation](./import_scripts/docs/imports.md)**  
 
 ---
 
