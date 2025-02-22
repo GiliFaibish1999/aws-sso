@@ -3,7 +3,7 @@ terraform {
 
   backend "s3" {
     profile        = "511510396203_AWSAdministratorAccess" #Legacy account
-    bucket         = "terraform-abtasty-eu-west-1"
+    bucket         = "terraform-gilienv-eu-west-1"
     key            = "aws-master-account/terraform.tfstate"
     region         = "eu-west-1"
     dynamodb_table = "terraform_state"

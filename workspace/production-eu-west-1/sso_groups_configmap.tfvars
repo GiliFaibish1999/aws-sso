@@ -19,7 +19,7 @@ sso_groups_configmap = {
     description  = "Admin rights for legacy account"
     users        = []
   },
-  "AWSTagSecretsRW"
+  "AWSTagSecretsRW" {
     display_name = "AWSTagSecretsRW"
     description  = "Rights to secrets"
     users        = []

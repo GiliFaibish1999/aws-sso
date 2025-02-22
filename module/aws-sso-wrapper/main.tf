@@ -69,7 +69,6 @@ resource "aws_ssoadmin_account_assignment" "sso_account_user" {
   target_type    = "AWS_ACCOUNT"
   principal_id   = data.aws_identitystore_user.aws_user["${each.value.account}.${each.value.username}"].user_id
   principal_type = "USER"
-  # permission_set_arn = data.aws_ssoadmin_permission_set.aws_user_permissionset[each.key].arn
   permission_set_arn = aws_ssoadmin_permission_set.permissionset[each.value.permissionset].arn
 }
 

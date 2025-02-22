@@ -1,11 +1,11 @@
 sso_account_configmap = {
-  "123456789101" = {
+  "760743704132" = {
       users = {}
       groups = {
           AWSBillingViewers = { groupname = "AWSBillingViewers", permissionset = ["Billing"] }
       }
   },
-  "760743704132" = {
+  "123456789101" = {
     users = {
       gili-faibish = { username = "gili.faibish@gilienv.com", permissionset = ["AWSOrganizationsFullAccess"] }
     }
