@@ -3,7 +3,7 @@
 # Variables
 PROFILE="123456789101_AWSAdministratorAccess"
 IDENTITY_STORE_ID="d-12345fai6g"
-INSTANCE_ARN="arn:aws:sso:::instance/ssoins-680480fb0594fe18"
+INSTANCE_ARN="arn:aws:sso:::instance/ssoins-678910fb11121fe31"
 OUTPUT_FILE="managed_policy_attachments.txt"
 
 # Clear the output file if it exists
